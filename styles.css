@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* * {
+    border: 2px solid gold;
+} */
+
+#head {
+    background-image: url('/assets/images/dining-room.svg');
+}
+
+/* Adjust Banner images here */
+#banner1-img {
+    background-image: url(/assets/images/sushi-image1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#banner2-img {
+    background-image: url(/assets/images/sushi-chef.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#banner3-img {
+    background-image: url(/assets/images/exterior.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#x-icon {
+    background-image: url(/assets/icons/x-icon.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#instagram-icon {
+    background-image: url(/assets/icons/instagram-icon.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#facebook-icon {
+    background-image: url(/assets/icons/facebook-icon.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

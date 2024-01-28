@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanagiba</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Della+Respira&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- for tailwind -->
+    <link href="output.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body class="m-0 bg-nav">
+    <!-- npx tailwindcss -i styles.css -o output.css --watch -->
+    <nav class="hidden lg:flex text-off-white justify-between px-32 py-4 border-b-2 border-border-color ">
+        <div class="brand-nav">
+            <p class="text-2xl">YANAGIBA</p>
+        </div>
+
+        <ul class="flex self-center gap-10">
+                <li>HOME</li>
+                <li>MENU</li>
+                <li>ABOUT</li>
+                <li>RESERVATIONS</li>
+                <li>CONTACT</li>
+        </ul>
+        <div class="flex gap-8">
+            <p id="x-icon" class="h-5 w-5 self-center"></p>
+            <p id="instagram-icon" class="h-5 w-5 self-center"></p>
+            <p id="facebook-icon" class="h-5 w-5 self-center"></p>
+        </div>
+    </nav>
+    <section>
+        <div id='head' class="text-center text-white flex justify-center h-[70vh]  ">
+            <div class="self-center">
+                <h1 class="text-3xl font-extralight lg:text-5xl">The refined edge of <br>
+                    <span class="text-6xl font-light lg:text-8xl ">ELEGANCE</span>
+                </h1>
+                <button class='px-8 py-3 mt-4 bg-button lg:mt-12 lg:px-20 lg:text-2xl'>BOOK A TABLE</button>
+            </div>
+        </div>
+
+        <div class="bg-inner-container mx-5 rounded-lg mt-[-40px] flex flex-col mb-10 lg:mx-56">
+            <div class="my-8 text-center">
+                <h2 class="yanagiba-title text-4xl">YANAGIBA</h2>
+                <p class="text-lg">SUSHI LOUNGE</p>
+            </div>
+
+            <!-- banners container -->
+            <div class="flex flex-col gap-5">
+                <!-- First Card -->
+                <div class="border border-border-color mx-6 rounded-xl lg:flex lg:mx-8">
+                    <!-- Image -->
+                    <div id='banner1-img' class="h-72  rounded-t-xl lg:rounded-r-none lg:w-1/2 lg:rounded-l-xl lg:h-auto"></div>
+                    <!-- Blurb/Content -->
+                    <div class="text-center p-3 lg:w-1/2 lg:text-left lg:p-7">
+                        <h3 class="text-2xl my-3">Experience Culinary Excellence</h3>
+                        <p class="text-md">Each dish is a masterpiece, meticulously crafted by our master sushi chefs, blending traditional techniques with modern flair. Indulge in an exquisite selection of the freshest sushi and sashimi, sourced from the finest local ingredients.</p>
+                        <button class="my-5 px-8 py-3 bg-button text-white font-semibold">Explore Our Menu</button>
+                    </div>
+                </div>
+                <!-- First Card END-->
+                <!-- Second Card -->
+
+                <div class="border border-border-color mx-6 lg:flex lg:mx-8 rounded-xl">
+                    <!-- Image -->
+                    <div id='banner2-img' class="h-72  rounded-t-xl lg:rounded-r-none lg:w-1/2 lg:rounded-l-xl lg:h-auto"></div>
+                    <!-- Blurb/Content -->
+                    <div class="text-center p-3 lg:w-1/2 lg:text-left lg:p-7">
+                        <h3 class="text-2xl my-3">A story of passion and precision</h3>
+                            <p class="text-md">Our journey is woven with dedication to the art of Japanese cuisine. Behind each creation is a tale of tradition, innovation, and the finest ingredients. Discover the soul of Yanagiba and the artisans who bring magic to your plate.</p>
+                        <button class="my-5 px-8 py-3 bg-button text-white font-semibold">Explore Our Menu</button>
+                    </div>
+                </div>
+                <!-- Second Card END-->
+                <!-- Third Card -->
+                <div class="border border-border-color mx-6 lg:flex lg:mx-8 rounded-xl">
+                    <!-- Image -->
+                    <div id='banner3-img' class="h-72  rounded-t-xl lg:rounded-r-none lg:w-1/2 lg:rounded-l-xl lg:h-auto"></div>
+                    <!-- Blurb/Content -->
+                    <div class="p-3 lg:flex lg:w-1/2 lg:p-7">
+                        <!-- Hours -->
+                        <div class="lg:w-1/2">
+                            <h4>Hours</h4>
+                            <div class="">
+                                <p class="font-bold">Monday</p>
+                                <ul class="">
+                                    <li>Closed</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>Tuesday - Thursday</p>
+                                <ul>
+                                    <li>Lunch: Noon–3 PM</li>
+                                    <li>Dinner: 6-11PM</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p>Friday-Sunday</p>
+                                <ul>
+                                    <li>Brunch:11AM–3PM</li>
+                                    <li>Dinner:5PM–Midnight</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- HOURS END -->
+                        <!-- CONTACT & SOCIALS DIV -->
+                        <div class="lg:w-1/2">
+                            <div>
+                                <h4>Contact</h4>
+                                <p>8750 Azure Vista Drive, Suite 101 Garden Heights, Westedge District Los Angeles, CA 90067</p>
+                                <p>(323) 555-0187</p>
+                            </div>
+                            <div>
+                                <h4>Stay Updated</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Third Card END-->
+
+            </div>
+
+            <button class="my-5 px-8 py-3 bg-button text-white font-semibold self-center">MENU</button>
+        </div>
+    </section>
+    
+</body>
+</html>
