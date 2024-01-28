@@ -7,7 +7,7 @@ Wireframes: (https://www.figma.com/file/qX1IinJ3WJIyIvkgRDaS6y/Yanagiba?type=des
 
 
 ## Languages & Frameworks: 
-Vanilla JavaScript, CSS, Tailwind CSS
+JavaScript, CSS, Tailwind CSS
 
 ## Credits
 UX/UI Designer - Christian Jackson
