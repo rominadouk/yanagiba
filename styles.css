@@ -31,20 +31,20 @@
     background-position: center;
 }
 
-#x-icon {
+.x-icon {
     background-image: url(/assets/icons/x-icon.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
-#instagram-icon {
+.instagram-icon {
     background-image: url(/assets/icons/instagram-icon.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-#facebook-icon {
+.facebook-icon {
     background-image: url(/assets/icons/facebook-icon.svg);
     background-size: cover;
     background-repeat: no-repeat;

@@ -15,22 +15,22 @@
 </head>
 <body class="m-0 bg-nav">
     <!-- npx tailwindcss -i styles.css -o output.css --watch -->
-    <nav class="hidden lg:flex text-off-white justify-between px-32 py-4 border-b-2 border-border-color ">
+    <nav class="flex text-off-white justify-between px-32 py-4 border-b-2 border-border-color ">
         <div class="brand-nav">
             <p class="text-2xl">YANAGIBA</p>
         </div>
 
-        <ul class="flex self-center gap-10">
+        <ul class="hidden lg:flex self-center gap-10">
                 <li>HOME</li>
                 <li>MENU</li>
                 <li>ABOUT</li>
                 <li>RESERVATIONS</li>
                 <li>CONTACT</li>
         </ul>
-        <div class="flex gap-8">
-            <p id="x-icon" class="h-5 w-5 self-center"></p>
-            <p id="instagram-icon" class="h-5 w-5 self-center"></p>
-            <p id="facebook-icon" class="h-5 w-5 self-center"></p>
+        <div class="hidden lg:flex gap-8">
+            <p class=" x-icon h-5 w-5 self-center"></p>
+            <p class=" instagram-icon h-5 w-5 self-center"></p>
+            <p class=" facebook-icon h-5 w-5 self-center"></p>
         </div>
     </nav>
     <section>
@@ -43,10 +43,10 @@
             </div>
         </div>
 
-        <div class="bg-inner-container mx-5 rounded-lg mt-[-40px] flex flex-col mb-10 lg:mx-56">
+        <div class="bg-inner-container mx-5 rounded-lg mt-[-40px] pb-20 flex flex-col mb-10 lg:mx-56">
             <div class="my-8 text-center">
-                <h2 class="yanagiba-title text-4xl">YANAGIBA</h2>
-                <p class="text-lg">SUSHI LOUNGE</p>
+                <h2 class="yanagiba-title text-4xl lg:text-6xl">YANAGIBA</h2>
+                <p class="text-lg lg:text-2xl">SUSHI LOUNGE</p>
             </div>
 
             <!-- banners container -->
@@ -81,41 +81,49 @@
                     <!-- Image -->
                     <div id='banner3-img' class="h-72  rounded-t-xl lg:rounded-r-none lg:w-1/2 lg:rounded-l-xl lg:h-auto"></div>
                     <!-- Blurb/Content -->
-                    <div class="p-3 lg:flex lg:w-1/2 lg:p-7">
+                    <div class="p-3 flex flex-col gap-5 lg:flex-row lg:w-1/2 lg:p-7">
                         <!-- Hours -->
                         <div class="lg:w-1/2">
-                            <h4>Hours</h4>
-                            <div class="">
-                                <p class="font-bold">Monday</p>
-                                <ul class="">
-                                    <li>Closed</li>
-                                </ul>
+                            <h4 class="text-xl lg:text-2xl font-bold mb-2">Hours</h4>
+                            <div class="flex flex-col gap-4 lg:gap-3">
+                                <div class="">
+                                    <p class="font-bold">Monday</p>
+                                    <ul class="">
+                                        <li>Closed</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p class="font-bold">Tuesday - Thursday</p>
+                                    <ul>
+                                        <li>Lunch: Noon–3PM</li>
+                                        <li>Dinner: 6-11PM</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p class="font-bold">Friday-Sunday</p>
+                                    <ul>
+                                        <li>Brunch: 11AM–3PM</li>
+                                        <li>Dinner: 5PM–Midnight</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div>
-                                <p>Tuesday - Thursday</p>
-                                <ul>
-                                    <li>Lunch: Noon–3 PM</li>
-                                    <li>Dinner: 6-11PM</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <p>Friday-Sunday</p>
-                                <ul>
-                                    <li>Brunch:11AM–3PM</li>
-                                    <li>Dinner:5PM–Midnight</li>
-                                </ul>
-                            </div>
+
                         </div>
                         <!-- HOURS END -->
                         <!-- CONTACT & SOCIALS DIV -->
                         <div class="lg:w-1/2">
-                            <div>
-                                <h4>Contact</h4>
+                            <div class="mb-3">
+                                <h4 class="text-xl lg:text-2xl font-bold mb-2">Contact</h4>
                                 <p>8750 Azure Vista Drive, Suite 101 Garden Heights, Westedge District Los Angeles, CA 90067</p>
                                 <p>(323) 555-0187</p>
                             </div>
                             <div>
-                                <h4>Stay Updated</h4>
+                                <h4 class="text-xl lg:text-2xl font-bold mb-2">Stay Updated</h4>
+                                <div class="gap-8 ">
+                                    <p class="x-icon i plw-5 self-center bg-black"></p>
+                                    <p class="instagram-icon h-5 w-5 self-center"></p>
+                                    <p class="facebook-icon h-5 w-5 self-center"></p>
+                                </div>
                             </div>
                         </div>
 
@@ -125,7 +133,6 @@
 
             </div>
 
-            <button class="my-5 px-8 py-3 bg-button text-white font-semibold self-center">MENU</button>
         </div>
     </section>
     
